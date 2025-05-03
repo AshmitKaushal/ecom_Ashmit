@@ -29,8 +29,8 @@ def main():
             st.write(data.describe())
         except Exception as e:
             print(e)
-        else:
-            print("The file is not upload")
+    else:
+        print("The file is not upload")
     
 if __name__=="__main__":
     main()
